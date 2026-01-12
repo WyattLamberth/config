@@ -4,3 +4,5 @@
 ```bash
 ln -s path/to/cloned/config ~/.config/nvim
 ```
+
+# tracked with jj
