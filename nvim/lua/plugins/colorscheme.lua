@@ -1,13 +1,14 @@
 return {
   {
-    "folke/tokyonight.nvim",
-    opts = { style = "night" },
+    "RRethy/nvim-base16",
+    lazy = false,
+    priority = 1000,
   },
 
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "tokyonight",
+      colorscheme = "base16-brewer",
     },
   },
 }
