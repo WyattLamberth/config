@@ -15,9 +15,11 @@ config.window_padding = {
 	top = 0,
 	bottom = 0,
 }
-config.default_domain = "WSL:Ubuntu-24.04"
 
-config.term = "xterm-256color"
+if wezterm.target_triple:find("windows") then
+	config.default_domain = "WSL:Ubuntu-24.04"
+end
+
 config.scrollback_lines = 10000
 
 config.leader = { key = "b", mods = "CTRL", timeout_milliseconds = 1000 }

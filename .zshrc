@@ -5,8 +5,8 @@
 # ============================================================================
 # Unlimited history - undocumented feature that sets size to "unlimited"
 # Similar to bash eternal history setup
-export HISTSIZE=
-export SAVEHIST=
+export HISTSIZE=10000000000
+export SAVEHIST=10000000000
 
 # Use a separate eternal history file to avoid truncation issues
 export HISTFILE=~/.zsh_eternal_history
