@@ -7,16 +7,18 @@ return {
         throttle = 200,
         debounce = 150,
         request_timeout = 10,
-        context_window = 2048,
+        context_window = 4096,
         n_completions = 1,
         provider_options = {
           openai_fim_compatible = {
             api_key = "TERM",
+            stream = false,
             name = "Ollama",
             end_point = "http://localhost:11434/v1/completions",
+            -- end_point = "https://maple-fifth-dem-retro.trycloudflare.com/v1/completions",
             model = "deepseek-coder-v2:16b",
             optional = {
-              max_tokens = 128,
+              max_tokens = 256,
               top_p = 0.9,
             },
           },
