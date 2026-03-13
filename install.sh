@@ -151,6 +151,7 @@ setup_symlinks() {
     make_symlink "$CONFIG_DIR/.tmux.conf"        "$HOME/.tmux.conf"               ".tmux.conf"
     make_symlink "$CONFIG_DIR/wezterm/wezterm.lua" "$HOME/.wezterm.lua"           ".wezterm.lua"
     make_symlink "$CONFIG_DIR/lazygit/config.yml" "$HOME/.config/lazygit/config.yml" "lazygit"
+    make_symlink "$CONFIG_DIR/starship.toml"     "$HOME/.config/starship.toml"     "starship"
 }
 
 setup_themes() {
