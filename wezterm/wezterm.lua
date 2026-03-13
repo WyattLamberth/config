@@ -6,7 +6,7 @@ config.enable_tab_bar = false
 config.window_close_confirmation = "NeverPrompt"
 config.window_decorations = "TITLE | RESIZE"
 config.default_cursor_style = "BlinkingBar"
-config.color_scheme = "Brewer (base16)"
+config.color_scheme = "Catppuccin Mocha"
 config.font = wezterm.font("JetBrains Mono", { weight = "Bold" })
 config.font_size = 13
 config.window_padding = {

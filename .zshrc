@@ -66,7 +66,7 @@ eval "$(zoxide init zsh)"
 # Eza - Modern ls replacement
 # ============================================================================
 # Basic aliases
-alias ls='eza --icons'
+alias ls='eza -l --icons --no-permissions --no-user --no-filesize'
 alias ll='eza -l --icons --git'
 alias la='eza -la --icons --git'
 alias lt='eza --tree --icons --level=2'
@@ -84,7 +84,7 @@ alias catp='bat --style=plain'  # bat without line numbers and git info
 alias bathelp='bat --list-themes'
 
 # Set bat theme (you can change this to your preference)
-export BAT_THEME="Monokai Extended"
+export BAT_THEME="Catppuccin Mocha"
 
 # ============================================================================
 # Additional Useful Aliases

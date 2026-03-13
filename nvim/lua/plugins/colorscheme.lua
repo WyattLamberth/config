@@ -1,14 +1,18 @@
 return {
   {
-    "RRethy/nvim-base16",
+    "catppuccin/nvim",
+    name = "catppuccin",
     lazy = false,
     priority = 1000,
+    opts = {
+      flavour = "mocha",
+    },
   },
 
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "base16-brewer",
+      colorscheme = "catppuccin-mocha",
     },
   },
 }

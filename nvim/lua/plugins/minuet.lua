@@ -16,7 +16,7 @@ return {
             name = "Ollama",
             end_point = "http://localhost:11434/v1/completions",
             -- end_point = "https://maple-fifth-dem-retro.trycloudflare.com/v1/completions",
-            model = "deepseek-coder-v2:16b",
+            model = "qwen2.5-coder:7b",
             optional = {
               max_tokens = 256,
               top_p = 0.9,
